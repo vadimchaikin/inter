@@ -1,0 +1,27 @@
+.search-widget {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-widget select,
+.search-widget input[type="date"] {
+    margin: 10px 0;
+}
+
+.error {
+    color: red;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
